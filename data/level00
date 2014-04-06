@@ -1,0 +1,15 @@
+####################
+#@..............#..#
+######..######..#..#
+#............#..#..#
+#...##..##...#..#..#
+#............#..#..#
+#...##..##...####..#
+#..................#
+#.....&&....!......#
+####################
+
+6,2:Ahead lies a throne room, lined with towering pillars.
+7,2:Ahead lies a throne room, lined with towering pillars.
+
+?This is just a WIP map format for the game. The lines above are strings printed when the player walks over the given coordinates.
