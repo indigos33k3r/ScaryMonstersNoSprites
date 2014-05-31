@@ -33,6 +33,7 @@ public:
 	}
 
 	Vec3D<int> Dimensions() const { return m_terrainMap.Dimensions(); }
+	bool IsWalkable(int x, int y); //TODO implement
 	void Render();
 	void Generate(float density);
 	void Update();

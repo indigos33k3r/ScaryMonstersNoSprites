@@ -34,11 +34,6 @@ std::vector<char> TextMap::GetCharMapVector() {
 	return m_charMap;
 }
 
-/*int TextMap::SetMap(std::vector<char> inputMap)
-{
-	m_charMap = inputMap;
-}*/
-
 void TextMap::Set(int x, int y, char value) {
 	int vecIndex = (y * m_width) + x;
 	if (vecIndex < 0 || vecIndex > m_charMap.size())

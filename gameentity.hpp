@@ -17,6 +17,8 @@ public:
 	char Representation() { return m_representation; }
 	int GetID() { return m_id; }
 	Vec3D<int> GetPos();
+
+	//TODO these functions should be virtual so inhereted classes can implement them their own way
 	int MoveRelative(int xRel, int yRel);
 	int Teleport(int x, int y);
 private:

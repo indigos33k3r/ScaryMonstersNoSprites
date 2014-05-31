@@ -10,7 +10,6 @@ public:
 	void Clear();
 	void Display();
 	std::vector<char> GetCharMapVector();
-	//int SetMap(std::vector<char> inputMap);
 	void Set(int x, int y, char value);
 	char Get(int x, int y); 
 	int Width() { return m_width; }
